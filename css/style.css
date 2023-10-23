@@ -50,28 +50,35 @@ p {
 .navbar {
   --bs-navbar-padding-y: 20px;
 }
+
 .navbar-expand-lg .navbar-collapse {
   gap: 18px;
 }
+
 .navbar-nav {
   gap: 18px;
 }
-.main_menu .navbar-brand{
+
+.main_menu .navbar-brand {
   width: 163px;
 }
-.main_menu ul li a{
+
+.main_menu ul li a {
   font-size: 15px;
   font-weight: 500;
   font-family: var(--poppins);
-color: var(--heading_color);
-position: relative;
+  color: var(--heading_color);
+  position: relative;
 }
-.main_menu ul li a:hover{
-  color: var(--brand_color)!important;
+
+.main_menu ul li a:hover {
+  color: var(--brand_color) !important;
 }
-.main_menu .active_menu{
+
+.main_menu .active_menu {
   color: var(--brand_color);
 }
+
 .main_menu ul li a::after {
   content: '';
   width: 0;
@@ -82,10 +89,12 @@ position: relative;
   left: 0;
   transition: all linear .3s;
 }
-.main_menu ul li a:hover::after{
+
+.main_menu ul li a:hover::after {
   width: 50%;
 }
-.main_menu ul li a::before{
+
+.main_menu ul li a::before {
   content: '';
   width: 0;
   height: 2px;
@@ -95,9 +104,11 @@ position: relative;
   right: 0;
   transition: all linear .3s;
 }
-.main_menu ul li a:hover::before{
+
+.main_menu ul li a:hover::before {
   width: 50%;
 }
+
 .main_menu .nav_download a {
   width: 38px;
   height: 38px;
@@ -109,13 +120,15 @@ position: relative;
   align-items: center;
   transition: all linear .3s;
 }
+
 .main_menu .nav_download a:hover {
   background-color: var(--secondary_color);
   transform: rotate(360deg);
 }
+
 /* ---------- main menu css part end ---------- */
 /* ========== banner css part start ==========  */
-#banner{
+#banner {
   background: url(../images/banner_bg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -124,7 +137,8 @@ position: relative;
   position: relative;
   z-index: 1;
 }
-#banner::after{
+
+#banner::after {
   content: '';
   width: 100%;
   height: 100%;
@@ -134,23 +148,27 @@ position: relative;
   left: 0;
   z-index: -1;
 }
-#banner .row{
+
+#banner .row {
   align-items: center;
 }
-.benner_text_head h1{
+
+.benner_text_head h1 {
   font-size: 99px;
   font-weight: 700;
   font-family: var(--poppins);
   color: #fff;
   padding-bottom: 5px;
 }
-.benner_text_head  h2{
+
+.benner_text_head h2 {
   font-size: 35px;
   font-weight: 600;
   font-family: var(--poppins);
   color: #fff;
 }
-.banner_text_paragraph p{
+
+.banner_text_paragraph p {
   width: 430px;
   font-size: 16px;
   font-weight: 400;
@@ -158,7 +176,8 @@ position: relative;
   color: #fff;
   margin: 20px 0;
 }
-.banner_text_review{
+
+.banner_text_review {
   width: 210px;
   height: 65px;
   border-radius: 50px;
@@ -170,30 +189,45 @@ position: relative;
   padding: 15px 10px;
   margin-bottom: 40px;
 }
-.banner_review_text h3{
+
+.banner_review_text h3 {
   font-size: 35px;
   font-weight: 700;
   font-family: var(--poppins);
   color: var(--secondary_color);
 }
-.banner_review_number{
+
+.banner_review_number {
   display: flex;
   flex-direction: column;
 }
-.banner_review_icon{
+.banner_review_icon ul{
+  display: flex;
+  gap:4px ;
+}
+.banner_review_icon ul li i{
   font-size: 18px;
   color: var(--secondary_color);
 }
-.banner_review_total p{
+.banner_review_icon ul .gry_color i{
+  color: #98999C;
+}
+
+.banner_review_total p {
   font-size: 14px;
   font-weight: 600;
   font-family: var(--poppins);
-  color: var(--heading_color);
+  color: var(--paragraph_color);
 }
-.banner_photo_part{
+
+.banner_photo_part {
+  width: 100%;
+}
+.banner_photo_part {
   display: flex;
   justify-content: end;
 }
+
 /* ---------- banner css part end ---------- */
 /* ========== common css part start ==========  */
 
