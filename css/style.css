@@ -1,42 +1,134 @@
 /* ========== fonts link css part start ==========  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* ---------- fonts link css part end ---------- */
 /* ========== variable css part start ==========  */
-:root{
-  --poppins:'Poppins', sans-serif;
+:root {
+  --poppins: 'Poppins', sans-serif;
   --inter: 'Inter', sans-serif;
   --brand_color: #5940ff;
   --secondary_color: #ff9900;
-  --heading_color:#1E1E1E;
+  --heading_color: #1E1E1E;
   --paragraph_color: #333333;
 }
+
 /* ---------- variable css part end ---------- */
 /* ========== common css part start ==========  */
-*{
+* {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
 }
-a{
+
+a {
   text-decoration: none;
   display: inline-block;
 }
-ul,ol{
+
+ul,
+ol {
   list-style: none;
 }
-ul,ol,h1,h2,h3,h4,h5,h6,p{
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
 }
-/* ---------- common css part end ---------- */
-/* ========== common css part start ==========  */
-
-
-
 
 /* ---------- common css part end ---------- */
+/* ========== main menu part start ==========  */
+#header {}
+
+.navbar {
+  --bs-navbar-padding-y: 20px;
+}
+.navbar-expand-lg .navbar-collapse {
+  gap: 18px;
+}
+.navbar-nav {
+  gap: 18px;
+}
+.main_menu .navbar-brand{
+  width: 163px;
+}
+
+
+
+/* .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  font-size: 15px;
+  font-weight: 500;
+  font-family: var(--poppins);
+color: var(--heading_color);
+} */
+.main_menu ul li a{
+  font-size: 15px;
+  font-weight: 500;
+  font-family: var(--poppins);
+color: var(--heading_color);
+position: relative;
+}
+.main_menu ul li a:hover{
+  color: var(--brand_color)!important;
+}
+.main_menu .active_menu{
+  color: var(--brand_color);
+}
+.main_menu ul li a::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: var(--brand_color);
+  position: absolute;
+  top: 88%;
+  left: 0;
+  transition: all linear .3s;
+}
+.main_menu ul li a:hover::after{
+  width: 50%;
+}
+.main_menu ul li a::before{
+  content: '';
+  width: 0;
+  height: 2px;
+  background: var(--secondary_color);
+  position: absolute;
+  top: 88%;
+  right: 0;
+  transition: all linear .3s;
+}
+.main_menu ul li a:hover::before{
+  width: 50%;
+}
+.main_menu .nav_download a {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--brand_color);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all linear .3s;
+}
+
+.main_menu .nav_download a:hover {
+  background-color: var(--secondary_color);
+  transform: rotate(360deg);
+
+}
+
+
+/* ---------- main menu css part end ---------- */
 /* ========== common css part start ==========  */
 
 
