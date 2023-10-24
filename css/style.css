@@ -307,23 +307,62 @@ p {
   font-weight: 500;
   font-family: var(--poppins);    
   color: var(--heading_color); 
+  position: relative;
+  transition: all linear .3s;
 }
-
 .about_button a:hover{
   background: none;
-  /* transform: scale(1.1); */
   border-radius: 0;
 }
-
-
-
 /* ---------- about app css part end ---------- */
-/* ========== common css part start ==========  */
+/* ========== app_features css part start ==========  */
+#app_features{
+  padding: 76px 0;
+  background: #F9F9F9;
+}
+.app_features_head{
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--poppins);
+  color: var(--heading_color);
+  text-align: center;
+  margin-bottom: 43px;
+}
+.features_cards_row{
+  width: 611px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
 
-
-
-
-/* ---------- common css part end ---------- */
+.features_card{
+  width: 163px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 20px 23px 26px 23px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  transition: all linear .3s;
+}
+.features_card:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.features_card_icon{
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  transition:  all linear .3s;
+}
+.features_card_text h3{
+  font-size: 17px;
+  font-weight: 600;
+  font-family: var(--poppins);
+  color: var(--heading_color);
+}
+/* ---------- app_features css part end ---------- */
 /* ========== common css part start ==========  */
 
 
