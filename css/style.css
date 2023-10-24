@@ -227,14 +227,97 @@ p {
   display: flex;
   justify-content: end;
 }
-
 /* ---------- banner css part end ---------- */
-/* ========== common css part start ==========  */
+/* ========== about app css part start ==========  */
+#about_app{
+  margin-top: 77px;
+  margin-bottom: 31px;
+}
+/* #about_app .row{
+  align-items: center;
+} */
+.about_image{
+  width: 320px;
+}
+.about_text{
+  margin-top: 70px;
+}
+.about_head h1{
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--poppins);    
+  color: var(--heading_color);
+}
+
+.about_head p{
+  width: 550px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--inter);    
+  color: var(--paragraph_color);
+  margin-top: 10px;
+  margin-bottom: 33px;
+}
+.icon_item{
+  display: flex;
+  gap: 11px;
+  margin-bottom: 33px;
+}
+.about_icon_bg{
+  width: 80px;
+  height:80px;
+  border-radius: 10px;
+  background: var(--brand_color);
+  text-align: center;
+  line-height: 80px;
+  transition: all linear .3s;
+}
+.about_icon_bg:hover{
+  background: var(--secondary_color);
+  border-radius: 0;
+}
+
+.about_icon_text h1{
+  color: var(--heading_color);
+  font-family: var(--poppins);    
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about_icon_text p{
+  width: 460px;
+  color: var(--paragraph_color);
+  font-family: var(--poppins);    
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 6px;
+}
+
+.about_button a{
+  width: 175px;
+  height: 50px;
+  background: #D9D9D9;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D9D9D9;
+  transition: all linear .5s;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--poppins);    
+  color: var(--heading_color); 
+}
+
+.about_button a:hover{
+  background: none;
+  /* transform: scale(1.1); */
+  border-radius: 0;
+}
 
 
 
-
-/* ---------- common css part end ---------- */
+/* ---------- about app css part end ---------- */
 /* ========== common css part start ==========  */
 
 

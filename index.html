@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -92,7 +93,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="banner_photo_part">
-                        <div class="banner_mobail">
+                        <div data-aos="fade-left" data-aos-duration="900" data-aos-easing="ease-in-sine"
+                            class="banner_mobail">
                             <img src="images/banner_phone.png" alt="banner phone">
                         </div>
                     </div>
@@ -100,14 +102,59 @@
             </div>
         </div>
     </section>
-
-
     <!-- ---------- banner part end ---------- -->
-    <!-- ========== main menu part start ========== -->
-
-
-
-    <!-- ---------- main menu part end ---------- -->
+    <!-- ========== about app part start ========== -->
+    <section id="about_app">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div data-aos="fade-right" data-aos-duration="900" data-aos-easing="ease-in-sine"
+                        class="about_image">
+                        <img class="img-fluid w-100" src="images/about_frem.png" alt="about image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_text">
+                        <div class="about_head">
+                            <h1>About The App</h1>
+                            <p>Our Mediinfo application is one such application, where you can easily contact the
+                                world's leading doctors.</p>
+                        </div>
+                        <div class="about_icon">
+                            <div class="icon_item">
+                                <div class="about_icon_logo">
+                                    <div class="about_icon_bg">
+                                        <img src="images/Vector.png" alt="about icon">
+                                    </div>
+                                </div>
+                                <div class="about_icon_text">
+                                    <h2>User Friendly</h2>
+                                    <p>An app that is user-friendly is designed to be intuitive and easy to navigate,
+                                        enhancing the overall user experience.</p>
+                                </div>
+                            </div>
+                            <div class="icon_item">
+                                <div class="about_icon_logo">
+                                    <div class="about_icon_bg">
+                                        <img src="images/Vector 2.png" alt="about icon">
+                                    </div>
+                                </div>
+                                <div class="about_icon_text">
+                                    <h2>User Friendly</h2>
+                                    <p>An app that is user-friendly is designed to be intuitive and easy to navigate,
+                                        enhancing the overall user experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about_button">
+                        <a href="#">See All Features</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------about app part end ---------- -->
     <!-- ========== main menu part start ========== -->
 
 
@@ -154,9 +201,9 @@
 
     <!-- ---------- main menu part end ---------- -->
     <!-- ========== js link part start ========== -->
-   <script src="js/jquery-1.12.4.min.js"></script>
-   <script src="js/jquery.counterup.min.js"></script>
-   <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
 
 
 
@@ -165,6 +212,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
     <script src="js/script.js"></script>
     <!-- ---------- js link part end ---------- -->
