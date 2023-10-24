@@ -201,15 +201,18 @@ p {
   display: flex;
   flex-direction: column;
 }
-.banner_review_icon ul{
+
+.banner_review_icon ul {
   display: flex;
-  gap:4px ;
+  gap: 4px;
 }
-.banner_review_icon ul li i{
+
+.banner_review_icon ul li i {
   font-size: 18px;
   color: var(--secondary_color);
 }
-.banner_review_icon ul .gry_color i{
+
+.banner_review_icon ul .gry_color i {
   color: #98999C;
 }
 
@@ -223,77 +226,85 @@ p {
 .banner_photo_part {
   width: 100%;
 }
+
 .banner_photo_part {
   display: flex;
   justify-content: end;
 }
+
 /* ---------- banner css part end ---------- */
 /* ========== about app css part start ==========  */
-#about_app{
+#about_app {
   margin-top: 77px;
   margin-bottom: 31px;
 }
+
 /* #about_app .row{
   align-items: center;
 } */
-.about_image{
+.about_image {
   width: 320px;
 }
-.about_text{
+
+.about_text {
   margin-top: 70px;
 }
-.about_head h1{
+
+.about_head h1 {
   font-size: 30px;
   font-weight: 600;
-  font-family: var(--poppins);    
+  font-family: var(--poppins);
   color: var(--heading_color);
 }
 
-.about_head p{
+.about_head p {
   width: 550px;
   font-size: 18px;
   font-weight: 400;
-  font-family: var(--inter);    
+  font-family: var(--inter);
   color: var(--paragraph_color);
   margin-top: 10px;
   margin-bottom: 33px;
 }
-.icon_item{
+
+.icon_item {
   display: flex;
   gap: 11px;
   margin-bottom: 33px;
 }
-.about_icon_bg{
+
+.about_icon_bg {
   width: 80px;
-  height:80px;
+  height: 80px;
   border-radius: 10px;
   background: var(--brand_color);
   text-align: center;
   line-height: 80px;
   transition: all linear .3s;
 }
-.about_icon_bg:hover{
+
+.about_icon_bg:hover {
   background: var(--secondary_color);
   border-radius: 0;
 }
 
-.about_icon_text h1{
+.about_icon_text h1 {
   color: var(--heading_color);
-  font-family: var(--poppins);    
+  font-family: var(--poppins);
   font-size: 20px;
   font-weight: 500;
 }
 
-.about_icon_text p{
+.about_icon_text p {
   width: 460px;
   color: var(--paragraph_color);
-  font-family: var(--poppins);    
+  font-family: var(--poppins);
   font-size: 14px;
   font-weight: 500;
   margin-top: 6px;
 }
 
-.about_button a{
+.about_button a {
   width: 175px;
   height: 50px;
   background: #D9D9D9;
@@ -305,22 +316,25 @@ p {
   transition: all linear .5s;
   font-size: 18px;
   font-weight: 500;
-  font-family: var(--poppins);    
-  color: var(--heading_color); 
+  font-family: var(--poppins);
+  color: var(--heading_color);
   position: relative;
   transition: all linear .3s;
 }
-.about_button a:hover{
+
+.about_button a:hover {
   background: none;
   border-radius: 0;
 }
+
 /* ---------- about app css part end ---------- */
 /* ========== app_features css part start ==========  */
-#app_features{
+#app_features {
   padding: 76px 0;
   background: #F9F9F9;
 }
-.app_features_head{
+
+.app_features_head {
   font-size: 30px;
   font-weight: 600;
   font-family: var(--poppins);
@@ -328,7 +342,8 @@ p {
   text-align: center;
   margin-bottom: 43px;
 }
-.features_cards_row{
+
+.features_cards_row {
   width: 611px;
   display: flex;
   justify-content: center;
@@ -336,7 +351,7 @@ p {
   margin: 0 auto;
 }
 
-.features_card{
+.features_card {
   width: 163px;
   border-radius: 10px;
   background: #fff;
@@ -346,29 +361,73 @@ p {
   margin-bottom: 30px;
   transition: all linear .3s;
 }
-.features_card:hover{
+
+.features_card:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
-.features_card_icon{
+
+.features_card_icon {
   width: 70px;
   height: 70px;
   margin: 0 auto;
   margin-bottom: 12px;
-  transition:  all linear .3s;
+  transition: all linear .3s;
 }
-.features_card_text h3{
+
+.features_card_text h3 {
   font-size: 17px;
   font-weight: 600;
   font-family: var(--poppins);
   color: var(--heading_color);
 }
+
 /* ---------- app_features css part end ---------- */
-/* ========== common css part start ==========  */
+/* ========== app creenshots css part start ==========  */
+#screenshots {
+  background: #DFE0F3;
+  padding: 70px 0;
+}
 
+.app_screenshot_head h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--poppins);
+  color: var(--heading_color);
+  text-align: center;
+  margin-bottom: 59px;
+}
 
+.slider_item {
+  padding: 0 15px;
 
+}
 
-/* ---------- common css part end ---------- */
+.slider_item img {
+  width: 320px;
+}
+
+.screenshot_slider ul li button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  font-size: 0;
+  border: none;
+  background: rgba(89, 64, 255, 0.50);
+  margin-top: 30px;
+}
+
+.screenshot_slider ul {
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+}
+
+.screenshot_slider ul .slick-active button {
+  transform: scale(1.2);
+  background: var(--brand_color);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* ---------- app creenshots css part end ---------- */
 /* ========== common css part start ==========  */
 
 
