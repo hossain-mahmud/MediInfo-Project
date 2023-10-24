@@ -57,3 +57,14 @@ $('.testimonial_slide').slick({
     dots: true,
 });
 // ----- testimonial slider part end   
+// ===== video part start
+function playVideo() {
+    var thumbnail = document.querySelector('.thumbnail');
+    var iframe = document.querySelector('iframe');
+    var playButton = document.querySelector('.playButton');
+    thumbnail.style.display = 'none';
+    iframe.style.display = 'block';
+    playButton.style.display = 'none';
+    iframe.src = "https://www.youtube.com/embed/oXFAhv3LbwE?autoplay=1";
+}
+// ----- video slider part end

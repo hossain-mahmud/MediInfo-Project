@@ -536,6 +536,110 @@ justify-content: start;
   color: #ffffff;
 }
 /* ---------- countercss part end ---------- */
+/* ========== video css part start ==========  */
+.video-titleAnd-description{
+  width: 490px;
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 115px;
+  padding-bottom: 30px;
+}
+
+.video-titleAnd-description h2{
+  font-size: 30px;
+  font-weight: 600;
+  font-family: var(--poppins);
+  color: var(--heading_color);
+  padding-bottom: 15px;
+}
+
+.video-titleAnd-description p{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--inter);
+  color: var(--paragraph_color);
+}
+
+.video-row{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.video{
+  position: relative;
+}
+
+.video iframe{
+  width:960px;
+  height: 500px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.video .thumbnail{
+  position:absolute;
+  top: 0%;
+  left: 0%;
+
+
+}
+.thumbnail::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background:rgba(31, 0, 230, 0.50);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 10px;
+  margin: 0px auto;
+
+}
+
+.thumbnail img{
+  border-radius: 10px;
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
+  background-color: #FF9900;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:all linear.3s;
+  animation: animate 2s linear infinite;
+}
+
+.playButton:hover {
+ background: #ffffff;
+ color: #5940ff;
+}
+
+@keyframes animate{
+0%{
+  box-shadow: 0 0 0 0 rgba(255, 193, 7, 0.7);
+}
+40%{
+  box-shadow: 0 0 0 40px rgba(255, 193, 7, 0);
+}
+80%{
+  box-shadow: 0 0 0 40px rgb(255, 193, 7, 0);
+}
+100%{
+  box-shadow: 0 0 0 40px rgb(255, 193, 7, 0);
+}
+}
+/* ---------- video css part end ---------- */
 /* ========== testimonial part start ==========  */
 #testimonial{
      padding-top: 116px;
