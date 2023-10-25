@@ -1,3 +1,15 @@
+// ===== nav sticky start
+let main_menu= document.querySelector('.main_menu');
+window.addEventListener('scroll',()=>{
+    let scrooling = this.scrollY;
+    if(scrooling >170){
+        main_menu.classList.add('nav_sticky');
+    }
+    else{
+        main_menu.classList.remove('nav_sticky');
+    }
+})
+//----- nav sticky end
 // ===== banner review number counter start
 $('.review_count').counterUp({
     delay: 10,
@@ -51,7 +63,7 @@ $('.testimonial_slide').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
     nextArrow: '<i class="fa-solid next_arrrow fa-chevron-right"></i>',
     prevArrow: '<i class="fa-solid pree_arrow fa-chevron-left"></i>',
     dots: true,
@@ -67,4 +79,7 @@ function playVideo() {
     playButton.style.display = 'none';
     iframe.src = "https://www.youtube.com/embed/oXFAhv3LbwE?autoplay=1";
 }
-// ----- video slider part end
+// ----- video part part end
+// ===== aso animation start
+AOS.init();
+// -----aso animation end
