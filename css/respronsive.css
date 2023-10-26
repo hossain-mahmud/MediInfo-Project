@@ -1,0 +1,77 @@
+/* ----- banner part responsive start ------ */
+@media (max-width:992px){
+
+    #banner .row {
+      gap: 50px;
+    }
+.benner_text_head h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .benner_text_head h2 {
+    font-size: 39px;
+    text-align: center;
+  }
+  .banner_text_paragraph p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .banner_text_review {
+    margin: 0 auto;
+  }
+  .banner_photo_part {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* ----- banner part responsive end ------ */
+/* ----- about part responsive start ------ */
+.about_image{
+    text-align: center;
+}
+.about_text{
+    text-align: center;
+}
+
+.about_head p {
+    width: 100%;
+  }
+  .icon_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_icon_text p {
+    width: 100%;
+  }
+  .about_button a{
+    margin: 0 auto;
+  }
+/* ----- about part responsive end ------ */
+/* ----- app_features part responsive end ------ */
+.features_cards_row {
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+  }
+
+/* ----- app_features part responsive end ------ */
+/* ----- app_features part responsive end ------ */
+
+
+/* ----- app_features part responsive end ------ */
+/* ----- app_features part responsive end ------ */
+
+
+/* ----- app_features part responsive end ------ */
+/* ----- app_features part responsive end ------ */
+
+
+/* ----- app_features part responsive end ------ */
+/* ----- app_features part responsive end ------ */
+
+
+/* ----- app_features part responsive end ------ */
+

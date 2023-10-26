@@ -244,7 +244,9 @@ p {
 .banner_photo_part {
   width: 100%;
 }
-
+.banner_photo_part img{
+  width: 320px;
+}
 .banner_photo_part {
   display: flex;
   justify-content: end;
@@ -257,10 +259,7 @@ p {
   margin-bottom: 31px;
 }
 
-/* #about_app .row{
-  align-items: center;
-} */
-.about_image {
+.about_image img {
   width: 320px;
 }
 

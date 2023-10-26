@@ -2,7 +2,7 @@
 let main_menu= document.querySelector('.main_menu');
 window.addEventListener('scroll',()=>{
     let scrooling = this.scrollY;
-    if(scrooling >170){
+    if(scrooling >110){
         main_menu.classList.add('nav_sticky');
     }
     else{
