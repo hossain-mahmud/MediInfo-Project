@@ -196,65 +196,171 @@
 	#get_app .app_store_button a {
 		width: 140px;
 	}
-	.app_image{
+
+	.app_image {
 		width: 100%;
 	}
+
 	/* ----- get app part end ----- */
 	/* ===== counter part start ===== */
 	#counter_part {
 		padding: 60px 0;
-	  }
-	  .counter_item{
+	}
+
+	.counter_item {
 		padding-bottom: 10px;
-	  }
-	  .counter_image {
+	}
+
+	.counter_image {
 		width: 75px;
 	}
+
 	.counter_text h3 {
 		font-size: 30px;
 	}
+
 	.counter_text p {
 		font-size: 16px;
 	}
+
 	/* ----- counter part end ----- */
 	/* ===== video part start ===== */
 	.video-titleAnd-description {
 		padding: 55px 0 10px 0;
 	}
+
 	.video-titleAnd-description h2 {
 		font-size: 25px;
 	}
+
 	.video-titleAnd-description p {
 		width: 100%;
 		margin-bottom: 10px;
 		font-size: 14px;
 	}
+
 	.video iframe {
-	width: auto;
-	height: 300px;
-}
+		width: auto;
+		height: 300px;
+	}
+
 	/* -----video part end ----- */
 	/* ===== testimonial part start ===== */
 	#testimonial {
 		padding-top: 66px;
 		padding-bottom: 76px;
 	}
+
 	.testimonial_head h2 {
 		font-size: 25px;
 		margin-bottom: 20px;
 	}
 
+	.testimonial_image {
+		width: 60px;
+		margin-bottom: 7px;
+	}
 
+	.testimonial_text p {
+		width: 100%;
+		font-size: 14px;
+	}
 
+	.testimonial_slide ul {
+		margin-top: 10px;
+		gap: 5px;
+	}
 
+	.personename_country h3 {
+		font-size: 16px;
+	}
+
+	.personename_country h4 {
+		font-size: 14px;
+	}
 
 	/* ----- testimonial part end ----- */
+	/* ===== contact part start ===== */
+	#contact_us {
+		padding-bottom: 70px;
+	}
 
+	.contact_head h2 {
+		font-size: 30px;
+	}
 
-		/* ===== testimonial part start ===== */
+	.contact_head p {
+		width: 100%;
+	}
 
+	.contact_communicat ul li a {
+		font-size: 14px;
+		font-family: var(--inter);
+		font-weight: 400;
+		color: #333333;
+	}
 
-	/* ----- testimonial part end ----- */
+	.contact_form {
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.form_email_name input {
+		width: 100%;
+	}
+
+	.contact_form textarea {
+		width: 100%;
+	}
+
+	.send_button button {
+		width: 134px;
+		height: 43px;
+		font-size: 15px;
+	}
+
+	/* ----- contact part end ----- */
+	/* ===== back to top button part start ===== */
+	.back_to_top {
+		width: 33px;
+		height: 33px;
+	}
+
+	/* ----- back to top button part end ----- */
+	/* ===== footer part start ===== */
+	.footer_head {
+		width: 140px;
+		margin: 0 auto;
+		margin-bottom: 24px;
+	}
+
+	.app_store {
+		gap: 9px;
+		justify-content: center;
+	}
+
+	.app_store_button a {
+		width: 140px;
+	}
+
+	.social_media .social_icon a {
+		width: 35px;
+		height: 35px;
+	}
+
+	.footer_nav ul {
+		gap: 33px;
+	}
+
+	.footer_nav ul li a {
+		font-size: 14px;
+	}
+
+	.footer_text p {
+		font-size: 13px;
+	}
+
+	/* ----- footer part end ----- */
 }
 
 /* ----- x-small devices responsive end ----- */
