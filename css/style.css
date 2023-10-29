@@ -949,6 +949,41 @@ button:active {
 }
 
 /* ---------- contact css part end ---------- */
+/* ========== back to top button css part start ==========  */
+.back_to_top {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: var(--brand_color);
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 5%;
+	right: 4%;
+  visibility: hidden;
+  opacity: 0;
+	z-index: 999;
+}
+.back_to_top_fixed{
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+  position: fixed;
+  bottom: 5%;
+	right: 4%;
+  animation: back_top .4s linear;
+}
+@keyframes back_top{
+  from{
+    bottom: 0;
+  }
+  to{
+    bottom: 5%;
+  }
+}
+/* ---------- back to top button css part end ---------- */
 /* ========== footer css part start ==========  */
 #footer_part {
   background: var(--heading_color);

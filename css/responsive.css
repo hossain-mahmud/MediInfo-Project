@@ -131,32 +131,22 @@ gap: 20px;
 
 
 
-/* ----- main menu part end ----- */
-
-    
+/* ----- main menu part end ----- */   
 }
 
 /* ----- x-small devices responsive end ----- */
 /* ===== small devices responsive start ====== */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-
-
-
-
 }
 /* ----- x-small devices responsive end ----- */
 /* ===== medium devices responsive start ====== */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-
-
 }
 /* -----medium devices responsive end ----- */
 /* ===== large devices devices responsive start ====== */
 @media (min-width:992px) and (max-width: 1199.98px) {
-
-
 
 }
 /* ----large devices responsive end ----- */
