@@ -267,10 +267,9 @@ p {
 /* #about_app .row{
   align-items: center;
 } */
-.about_image img {
+.about_image{
   width: 320px;
 }
-
 .about_text {
   margin-top: 70px;
 }
@@ -565,7 +564,10 @@ button:active {
   color: #ffffff;
   margin-top: 3px;
 }
-
+.counter_image{
+  width: 82px;
+  margin: 0 auto;
+}
 .counter_text p {
   font-size: 18px;
   font-weight: 600;
@@ -926,12 +928,13 @@ button:active {
   background-color: #FEFEFE;
 }
 
-.send_button a {
+.send_button button {
   width: 168px;
   height: 38px;
   font-size: 16px;
   font-family: var(--poppins);
   font-weight: 600;
+  border: none;
   background-color: var(--secondary_color);
   color: #FFFFFF;
   border-radius: 30px;
@@ -943,7 +946,7 @@ button:active {
   transition: all linear .3s;
 }
 
-.send_button a:hover {
+.send_button button:hover {
   background-color: #FFFFFF;
   color: var(--brand_color);
 }
@@ -956,7 +959,8 @@ button:active {
 }
 
 .footer_head {
-  text-align: center;
+  width: 218px;
+  margin: 0 auto;
   margin-bottom: 24px;
 }
 

@@ -1,0 +1,109 @@
+/* ===== x-small devices responsive start ====== */
+@media (max-width: 575.98px) {
+/* ===== main menu part start ===== */
+.navbar {
+	--bs-navbar-padding-y: 10px;
+}
+.navbar-toggler-icon {
+	width: 1.3em;
+	height: 1.3em;
+}
+.main_menu .navbar-brand {
+	width: 140px;
+}
+.navbar-toggler {
+	color: var(--brand_color);
+}
+.navbar-nav {
+	gap: 11px;
+	align-items: center;
+}
+.nav_download a {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+/* ----- main menu part end ----- */
+/* ===== banner part start ===== */
+#banner {
+	padding-top: 55px;
+}
+.banner_text_part{
+    text-align: center;
+}
+.benner_text_head h1 {
+	font-size: 52px;
+}
+.benner_text_head h2 {
+	font-size: 20px;
+}
+.banner_text_paragraph p {
+	width: 100%;
+	font-size: 14px;
+}
+.banner_text_review {
+	width: 190px;
+	height: 57px;
+	margin: 0 auto;
+	margin-bottom: 26px;
+}
+.banner_review_text h3 {
+	font-size: 30px;
+}
+.banner_review_icon ul {
+	gap: 8px;
+}
+.banner_review_icon ul li i {
+	font-size: 14px;
+}
+.banner_review_total p {
+	font-size: 13px;
+}
+/* ----- banner part end ----- */
+/* ===== main menu part start ===== */
+
+
+
+/* ----- main menu part end ----- */
+/* ===== main menu part start ===== */
+
+
+
+/* ----- main menu part end ----- */
+/* ===== main menu part start ===== */
+
+
+
+/* ----- main menu part end ----- */
+/* ===== main menu part start ===== */
+
+
+
+/* ----- main menu part end ----- */
+
+    
+}
+
+/* ----- x-small devices responsive end ----- */
+/* ===== small devices responsive start ====== */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+
+
+}
+/* ----- x-small devices responsive end ----- */
+/* ===== medium devices responsive start ====== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+
+}
+/* -----medium devices responsive end ----- */
+/* ===== large devices devices responsive start ====== */
+@media (min-width:992px) and (max-width: 1199.98px) {
+
+
+
+}
+/* ----large devices responsive end ----- */
