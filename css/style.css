@@ -403,7 +403,7 @@ p {
 }
 
 /* ---------- app_features css part end ---------- */
-/* ========== app creenshots css part start ==========  */
+/* ========== app screenshots css part start ==========  */
 #screenshots {
   background: #DFE0F3;
   padding: 70px 0;
@@ -448,7 +448,7 @@ p {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-/* ---------- app creenshots css part end ---------- */
+/* ---------- app screenshots css part end ---------- */
 /* ========== get app now css part start ==========  */
 .the_app h2 {
   width: 303px;
@@ -559,7 +559,7 @@ button:active {
   font-weight: 700;
   font-family: var(--poppins);
   color: #ffffff;
-  margin-top: 3px;
+  margin-top: 7px;
 }
 .counter_image{
   width: 82px;
@@ -575,7 +575,6 @@ button:active {
 /* ---------- countercss part end ---------- */
 /* ========== video css part start ==========  */
 .video-titleAnd-description {
-  width: 490px;
   text-align: center;
   margin: 0px auto;
   padding-top: 115px;
@@ -591,10 +590,12 @@ button:active {
 }
 
 .video-titleAnd-description p {
+  width: 490px;
   font-size: 18px;
   font-weight: 400;
   font-family: var(--inter);
   color: var(--paragraph_color);
+  margin: 0 auto;
 }
 
 .video-row {
