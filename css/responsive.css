@@ -41,34 +41,87 @@
 	font-size: 14px;
 }
 .banner_text_review {
-	width: 190px;
-	height: 57px;
+	width: 156px;
+	height: 48px;
 	margin: 0 auto;
 	margin-bottom: 26px;
 }
 .banner_review_text h3 {
-	font-size: 30px;
+	font-size: 21px;
 }
 .banner_review_icon ul {
 	gap: 8px;
 }
 .banner_review_icon ul li i {
-	font-size: 14px;
+	font-size: 11px;
 }
 .banner_review_total p {
-	font-size: 13px;
+	font-size: 11px;
+}
+.banner_photo_part {
+	justify-content: center;
 }
 /* ----- banner part end ----- */
-/* ===== main menu part start ===== */
-
-
-
-/* ----- main menu part end ----- */
-/* ===== main menu part start ===== */
-
-
-
-/* ----- main menu part end ----- */
+/* ===== about app part start ===== */
+.icon_item {
+	align-items: center;
+}
+.about_image{
+    width: 100%;
+  }
+  .about_head h1 {
+	font-size: 25px;
+  }
+  .about_head p {
+	width: 100%;
+	font-size: 14px;
+}
+.about_icon_bg {
+	width: 65px;
+	height: 65px;
+	border-radius: 5px;
+}
+.about_icon_text h2 {
+	font-size: 18px;
+}
+.about_icon_text p {
+	width: 100%;
+	font-size: 14px;
+	font-weight: 400;
+}
+.about_button a {
+	width: 150px;
+	height: 48px;
+	font-size: 16px;
+    /* margin: 0 auto; */
+}
+/* ----- about app part end ----- */
+/* ===== app_features part start ===== */
+#app_features {
+	padding: 40px 0;
+}
+.app_features_head h2 {
+	font-size: 25px;
+}
+.features_cards_row {
+	width: 100%;
+	justify-content: center;
+gap: 20px;
+}
+.features_card {
+	width: 130px;
+    padding: 10px 16px;
+	border-radius: 8px;
+    margin-bottom: 0;
+}
+.features_card_icon {
+	width: 40px;
+	height: 40px;
+}
+.features_card_text h3 {
+	font-size: 14px;
+}
+/* ----- app_features part end ----- */
 /* ===== main menu part start ===== */
 
 

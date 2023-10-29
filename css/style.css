@@ -263,10 +263,6 @@ p {
   margin-top: 77px;
   margin-bottom: 31px;
 }
-
-/* #about_app .row{
-  align-items: center;
-} */
 .about_image{
   width: 320px;
 }
@@ -302,8 +298,9 @@ p {
   height: 80px;
   border-radius: 10px;
   background: var(--brand_color);
-  text-align: center;
-  line-height: 80px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
   transition: all linear .3s;
 }
 
@@ -312,7 +309,7 @@ p {
   border-radius: 0;
 }
 
-.about_icon_text h1 {
+.about_icon_text h2 {
   color: var(--heading_color);
   font-family: var(--poppins);
   font-size: 20px;
@@ -358,7 +355,7 @@ p {
   background: #F9F9F9;
 }
 
-.app_features_head {
+.app_features_head h2{
   font-size: 30px;
   font-weight: 600;
   font-family: var(--poppins);
