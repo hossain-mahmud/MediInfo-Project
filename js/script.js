@@ -35,19 +35,19 @@ $('.screenshot_slider').slick({
     dots: true,
     centerMode: false,
     responsive: [{
-            breakpoint: 1024,
+            breakpoint: 992,
             settings: {
                 slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: true
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 1
             }
         },
         {
