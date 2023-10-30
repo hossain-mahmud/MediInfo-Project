@@ -958,6 +958,7 @@ button:active {
 	background: var(--brand_color);
 	color: #fff;
 	display: flex;
+  transition:  all linear .3s;
 	justify-content: center;
 	align-items: center;
 	position: absolute;
@@ -966,6 +967,10 @@ button:active {
   visibility: hidden;
   opacity: 0;
 	z-index: 999;
+}
+.back_to_top:hover{
+  background: #5239EC;
+  transform: scale(1.1);
 }
 .back_to_top_fixed{
   visibility: visible;

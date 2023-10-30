@@ -243,10 +243,12 @@
 		width: auto;
 		height: 300px;
 	}
+
 	.playButton {
 		width: 50px;
 		height: 50px;
 	}
+
 	/* -----video part end ----- */
 	/* ===== testimonial part start ===== */
 	#testimonial {
@@ -369,370 +371,375 @@
 /* ----- x-small devices responsive end ----- */
 /* ===== small devices responsive start ====== */
 @media (min-width: 576px) and (max-width: 767.98px) {
-		/* ===== main menu part start ===== */
-		.navbar {
-			--bs-navbar-padding-y: 10px;
-		}
-	
-		.navbar-toggler-icon {
-			width: 1.3em;
-			height: 1.3em;
-		}
-	
-		.main_menu .navbar-brand {
-			width: 160px;
-		}
-	
-		.navbar-toggler {
-			color: var(--brand_color);
-		}
-	
-		.navbar-nav {
-			gap: 11px;
-			align-items: center;
-		}
-	
-		.nav_download a {
-			margin: 0 auto;
-			margin-top: 10px;
-		}
-	
-		/* ----- main menu part end ----- */
-		/* ===== banner part start ===== */
-		#banner {
-			padding-top: 55px;
-		}
-	
-		.banner_text_part {
-			text-align: center;
-		}
-	
-		.benner_text_head h1 {
-			font-size: 90px;
-		}
-	
-		.benner_text_head h2 {
-			font-size: 28px;
-		}
-	
-		.banner_text_paragraph p {
-			width: 100%;
-			font-size: 16px;
-		}
-	
-		.banner_text_review {
-			width: 188px;
-			height: 63px;
-			margin: 0 auto;
-			margin-bottom: 26px;
-		}
-		.banner_review_text h3 {
-			font-size: 35px;
-		}
-	
-		.banner_review_icon ul {
-			gap: 8px;
-		}
-	
-		.banner_review_icon ul li i {
-			font-size: 14px;
-		}
-	
-		.banner_review_total p {
-			font-size: 13px;
-		}
-	
-		.banner_photo_part {
-			justify-content: center;
-		}
-	
-		/* ----- banner part end ----- */
-		/* ===== about app part start ===== */
-		.icon_item {
-			align-items: center;
-		}
-	
-		.about_image {
-			width: 400px;
-			margin: 0 auto;
-		}
-	
-		.about_head h1 {
-			font-size: 25px;
-		}
-	
-		.about_head p {
-			width: 100%;
-			font-size: 15px;
-		}
-	
-		.about_icon_bg {
-			width: 65px;
-			height: 65px;
-			border-radius: 5px;
-		}
-	
-		.about_icon_text h2 {
-			font-size: 18px;
-		}
-	
-		.about_icon_text p {
-			width: 100%;
-			font-size: 14px;
-			font-weight: 400;
-		}
-	
-		.about_button a {
-			width: 150px;
-			height: 48px;
-			font-size: 16px;
-			/* margin: 0 auto; */
-		}
-	
-		/* ----- about app part end ----- */
-		/* ===== app_features part start ===== */
-		#app_features {
-			padding: 40px 0;
-		}
-	
-		.app_features_head h2 {
-			font-size: 25px;
-		}
-	
-		.features_cards_row {
-			width: 100%;
-			justify-content: center;
-			gap: 20px;
-		}
-	
-		.features_card {
-			width: 130px;
-			padding: 10px 16px;
-			border-radius: 8px;
-			margin-bottom: 0;
-		}
-	
-		.features_card_icon {
-			width: 40px;
-			height: 40px;
-		}
-	
-		.features_card_text h3 {
-			font-size: 15px;
-		}
-	
-		/* ----- app_features part end ----- */
-		/* ===== app screenshots part start ===== */
-		#screenshots {
-			padding: 44px 0;
-		}
-	
-		.app_screenshot_head h2 {
-			font-size: 25px;
-		}
-	
-		.slider_item {
-			padding: 0 20px;
-		}
-	
-		.screenshot_slider ul li button {
-			width: 10px;
-			height: 10px;
-			margin-top: 20px;
-		}
-	
-		/* ----- app screenshots part end ----- */
-		/* ===== get app part start ===== */
-		.the_app h2 {
-			width: 100%;
-			font-size: 25px;
-			margin-top: 44px;
-			margin-bottom: 10px;
-		}
-	
-		.the_app p {
-			width: 100%;
-			font-size: 15px;
-			line-height: 25px;
-		}
-	
-		#get_app .app_store {
-			gap: 9px;
-			justify-content: center;
-		}
-	
-		#get_app .app_store_button a {
-			width: 160px;
-		}
-	
-		.app_image {
-			width: 400px;
-			margin: 0 auto;
-		}
-	
-		/* ----- get app part end ----- */
-		/* ===== counter part start ===== */
-		#counter_part {
-			padding: 60px 0;
-		}
-	
-		.counter_item {
-			padding-bottom: 10px;
-		}
-	
-		.counter_image {
-			width: 90px;
-		}
-	
-		.counter_text h3 {
-			font-size: 35px;
-		}
-	
-		.counter_text p {
-			font-size: 18px;
-		}
-	
-		/* ----- counter part end ----- */
-		/* ===== video part start ===== */
-		.video-titleAnd-description {
-			padding: 55px 0 10px 0;
-		}
-	
-		.video-titleAnd-description h2 {
-			font-size: 25px;
-		}
-	
-		.video-titleAnd-description p {
-			width: 100%;
-			margin-bottom: 10px;
-			font-size: 14px;
-		}
-		.video iframe {
-			width: 400px;
-			height: 300px;
-		}
-	
-		/* -----video part end ----- */
-		/* ===== testimonial part start ===== */
-		#testimonial {
-			padding-top: 66px;
-			padding-bottom: 76px;
-		}
-	
-		.testimonial_head h2 {
-			font-size: 25px;
-			margin-bottom: 20px;
-		}
-	
-		.testimonial_image {
-			width: 60px;
-			margin-bottom: 7px;
-		}
-	
-		.testimonial_text p {
-			width: 100%;
-			font-size: 14px;
-		}
-	
-		.testimonial_slide ul {
-			margin-top: 10px;
-			gap: 5px;
-		}
-	
-		.personename_country h3 {
-			font-size: 16px;
-		}
-	
-		.personename_country h4 {
-			font-size: 14px;
-		}
-	
-		/* ----- testimonial part end ----- */
-		/* ===== contact part start ===== */
-		#contact_us {
-			padding-bottom: 70px;
-		}
-	
-		.contact_head h2 {
-			font-size: 30px;
-		}
-	
-		.contact_head p {
-			width: 100%;
-		}
-	
-		.contact_communicat ul li a {
-			font-size: 14px;
-			font-family: var(--inter);
-			font-weight: 400;
-			color: #333333;
-		}
-	
-		.contact_form {
-			width: 100%;
-			margin-top: 30px;
-		}
-	
-		.form_email_name input {
-			width: 100%;
-		}
-	
-		.contact_form textarea {
-			width: 100%;
-		}
-	
-		.send_button button {
-			width: 134px;
-			height: 43px;
-			font-size: 15px;
-		}
-	
-		/* ----- contact part end ----- */
-		/* ===== back to top button part start ===== */
-		.back_to_top {
-			width: 33px;
-			height: 33px;
-		}
-	
-		/* ----- back to top button part end ----- */
-		/* ===== footer part start ===== */
-		.footer_head {
-			width: 160px;
-			margin: 0 auto;
-			margin-bottom: 24px;
-		}
-	
-		.app_store {
-			gap: 10px;
-			justify-content: center;
-		}
-	
-		.app_store_button a {
-			width: 160px;
-		}
-	
-		.social_media .social_icon a {
-			width: 35px;
-			height: 35px;
-		}
-	
-		.footer_nav ul {
-			gap: 33px;
-		}
-	
-		.footer_nav ul li a {
-			font-size: 15px;
-		}
-	
-		.footer_text p {
-			font-size: 15px;
-		}
-	
-		/* ----- footer part end ----- */
+
+	/* ===== main menu part start ===== */
+	.navbar {
+		--bs-navbar-padding-y: 10px;
 	}
+
+	.navbar-toggler-icon {
+		width: 1.3em;
+		height: 1.3em;
+	}
+
+	.main_menu .navbar-brand {
+		width: 160px;
+	}
+
+	.navbar-toggler {
+		color: var(--brand_color);
+	}
+
+	.navbar-nav {
+		gap: 11px;
+		align-items: center;
+	}
+
+	.nav_download a {
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+
+	/* ----- main menu part end ----- */
+	/* ===== banner part start ===== */
+	#banner {
+		padding-top: 55px;
+	}
+
+	.banner_text_part {
+		text-align: center;
+	}
+
+	.benner_text_head h1 {
+		font-size: 90px;
+	}
+
+	.benner_text_head h2 {
+		font-size: 28px;
+	}
+
+	.banner_text_paragraph p {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.banner_text_review {
+		width: 188px;
+		height: 63px;
+		margin: 0 auto;
+		margin-bottom: 26px;
+	}
+
+	.banner_review_text h3 {
+		font-size: 35px;
+	}
+
+	.banner_review_icon ul {
+		gap: 8px;
+	}
+
+	.banner_review_icon ul li i {
+		font-size: 14px;
+	}
+
+	.banner_review_total p {
+		font-size: 13px;
+	}
+
+	.banner_photo_part {
+		justify-content: center;
+	}
+
+	/* ----- banner part end ----- */
+	/* ===== about app part start ===== */
+	.icon_item {
+		align-items: center;
+	}
+
+	.about_image {
+		width: 400px;
+		margin: 0 auto;
+	}
+
+	.about_head h1 {
+		font-size: 25px;
+	}
+
+	.about_head p {
+		width: 100%;
+		font-size: 15px;
+	}
+
+	.about_icon_bg {
+		width: 65px;
+		height: 65px;
+		border-radius: 5px;
+	}
+
+	.about_icon_text h2 {
+		font-size: 18px;
+	}
+
+	.about_icon_text p {
+		width: 100%;
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	.about_button a {
+		width: 150px;
+		height: 48px;
+		font-size: 16px;
+		/* margin: 0 auto; */
+	}
+
+	/* ----- about app part end ----- */
+	/* ===== app_features part start ===== */
+	#app_features {
+		padding: 40px 0;
+	}
+
+	.app_features_head h2 {
+		font-size: 25px;
+	}
+
+	.features_cards_row {
+		width: 100%;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	.features_card {
+		width: 130px;
+		padding: 10px 16px;
+		border-radius: 8px;
+		margin-bottom: 0;
+	}
+
+	.features_card_icon {
+		width: 40px;
+		height: 40px;
+	}
+
+	.features_card_text h3 {
+		font-size: 15px;
+	}
+
+	/* ----- app_features part end ----- */
+	/* ===== app screenshots part start ===== */
+	#screenshots {
+		padding: 44px 0;
+	}
+
+	.app_screenshot_head h2 {
+		font-size: 25px;
+	}
+
+	.slider_item {
+		padding: 0 20px;
+	}
+
+	.screenshot_slider ul li button {
+		width: 10px;
+		height: 10px;
+		margin-top: 20px;
+	}
+
+	/* ----- app screenshots part end ----- */
+	/* ===== get app part start ===== */
+	.the_app h2 {
+		width: 100%;
+		font-size: 25px;
+		margin-top: 44px;
+		margin-bottom: 10px;
+	}
+
+	.the_app p {
+		width: 100%;
+		font-size: 15px;
+		line-height: 25px;
+	}
+
+	#get_app .app_store {
+		gap: 9px;
+		justify-content: center;
+	}
+
+	#get_app .app_store_button a {
+		width: 160px;
+	}
+
+	.app_image {
+		width: 400px;
+		margin: 0 auto;
+	}
+
+	/* ----- get app part end ----- */
+	/* ===== counter part start ===== */
+	#counter_part {
+		padding: 60px 0;
+	}
+
+	.counter_item {
+		padding-bottom: 10px;
+	}
+
+	.counter_image {
+		width: 90px;
+	}
+
+	.counter_text h3 {
+		font-size: 35px;
+	}
+
+	.counter_text p {
+		font-size: 18px;
+	}
+
+	/* ----- counter part end ----- */
+	/* ===== video part start ===== */
+	.video-titleAnd-description {
+		padding: 55px 0 10px 0;
+	}
+
+	.video-titleAnd-description h2 {
+		font-size: 25px;
+	}
+
+	.video-titleAnd-description p {
+		width: 100%;
+		margin-bottom: 10px;
+		font-size: 14px;
+	}
+
+	.video iframe {
+		width: 400px;
+		height: 300px;
+	}
+
+	/* -----video part end ----- */
+	/* ===== testimonial part start ===== */
+	#testimonial {
+		padding-top: 66px;
+		padding-bottom: 76px;
+	}
+
+	.testimonial_head h2 {
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+
+	.testimonial_image {
+		width: 60px;
+		margin-bottom: 7px;
+	}
+
+	.testimonial_text p {
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.testimonial_slide ul {
+		margin-top: 10px;
+		gap: 5px;
+	}
+
+	.personename_country h3 {
+		font-size: 16px;
+	}
+
+	.personename_country h4 {
+		font-size: 14px;
+	}
+
+	/* ----- testimonial part end ----- */
+	/* ===== contact part start ===== */
+	#contact_us {
+		padding-bottom: 70px;
+	}
+
+	.contact_head h2 {
+		font-size: 30px;
+	}
+
+	.contact_head p {
+		width: 100%;
+	}
+
+	.contact_communicat ul li a {
+		font-size: 14px;
+		font-family: var(--inter);
+		font-weight: 400;
+		color: #333333;
+	}
+
+	.contact_form {
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.form_email_name input {
+		width: 100%;
+	}
+
+	.contact_form textarea {
+		width: 100%;
+	}
+
+	.send_button button {
+		width: 134px;
+		height: 43px;
+		font-size: 15px;
+	}
+
+	/* ----- contact part end ----- */
+	/* ===== back to top button part start ===== */
+	.back_to_top {
+		width: 33px;
+		height: 33px;
+	}
+
+	/* ----- back to top button part end ----- */
+	/* ===== footer part start ===== */
+	.footer_head {
+		width: 160px;
+		margin: 0 auto;
+		margin-bottom: 24px;
+	}
+
+	.app_store {
+		gap: 10px;
+		justify-content: center;
+	}
+
+	.app_store_button a {
+		width: 160px;
+	}
+
+	.social_media .social_icon a {
+		width: 35px;
+		height: 35px;
+	}
+
+	.footer_nav ul {
+		gap: 33px;
+	}
+
+	.footer_nav ul li a {
+		font-size: 15px;
+	}
+
+	.footer_text p {
+		font-size: 15px;
+	}
+
+	/* ----- footer part end ----- */
+}
+
 /* ----- x-small devices responsive end ----- */
 /* ===== medium devices responsive start ====== */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
 	/* ===== main menu part start ===== */
 	.navbar {
 		--bs-navbar-padding-y: 10px;
@@ -790,6 +797,7 @@
 		margin: 0 auto;
 		margin-bottom: 26px;
 	}
+
 	.banner_review_text h3 {
 		font-size: 35px;
 	}
@@ -971,6 +979,7 @@
 		margin-bottom: 10px;
 		font-size: 16px;
 	}
+
 	.video iframe {
 		width: 400px;
 		height: 300px;
@@ -1095,4 +1104,5 @@
 
 	/* ----- footer part end ----- */
 }
+
 /* -----medium devices responsive end ----- */
