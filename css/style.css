@@ -758,7 +758,7 @@ button:active {
 .testimonial_slide {
   width: 100%;
   position: relative;
-  z-index: 999;
+  z-index: 111;
 }
 
 .next_arrrow {
